@@ -1,0 +1,194 @@
+html { height: 100%;
+      	background:black;
+      	//color:white;
+      }
+
+body { height: 100%; margin: 0; padding: 0; font-family: 'Pontano Sans', sans-serif; font-size: 1em;}
+
+#map_container{
+  height: auto;
+  position: absolute;
+  bottom:0;
+  left:0;
+  right:260px;
+  top: 0px;
+
+}
+
+.crop { height: 150px; overflow: hidden; }
+
+
+.thumb-image{
+  width:210px;
+  //padding:em 0 0 0;
+}
+
+#data-list{
+
+ color: white;
+    float: right;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    right: 2px;
+    width: 230px;
+
+
+}
+
+
+
+#filterbox{
+
+  bottom:1px;
+  height:100px;
+  padding:20px;
+  width: 240px;
+  color: white;
+  background:black;
+z-index:3;
+  position:absolute;
+}
+#facebook-button{
+  position:absolute;
+  bottom:0;
+  padding:10px;
+
+}
+
+#twitter-button{
+  position:absolute;
+  bottom:0;
+  padding:6px;
+  left: 80px;
+
+}
+#filterbox img{
+}
+#filterbox input{
+
+
+  //float:left;
+}
+
+#filterbox ul{
+  padding:0;
+  
+}
+#filterbox li{
+  text-indent:0;
+display:inline;
+
+}
+#filterbox h1{
+  margin:0;
+  padding:2px;
+}
+
+#data-list h1{
+  margin:0;
+  padding-top:30px;
+  //padding:0;
+  position:fixed;
+  background:black;
+  height:100px;
+
+  //z-index:-2;
+}
+
+#data-list h3{
+  text-align:center;
+color:#00c1b2;
+  margin:0;
+  padding:1em 0;
+  font-size:16px;
+  width:200px;
+  margin-top:80px;
+  border-bottom:3px solid #fff;
+
+  border-top:3px solid #fff;
+  background:black;
+  position:fixed;
+ // z-index:-1;
+}
+
+
+h1{
+	font-family: 'Leckerli One', cursive;
+	font-weight:normal;
+	//position:fixed;
+	background-color:black;
+}
+
+
+h2{
+  font-family: 'Leckerli One', cursive;
+  font-weight:normal;
+
+  font-size:20px;
+  padding:0;
+  margin:0;
+
+}
+
+.imagesource a{
+  font-size:10px;
+  padding:0;
+  //margin:0;
+  //padding:0 0 1em 0;
+  margin:0;
+  color:black;
+}
+
+.imagesource{
+  margin:0;
+  padding:0;
+}
+
+#infobox{
+ // padding:1em 0;
+}
+td{
+width:300px;
+valign:top;
+
+}
+
+#infobox a img{
+width:80px;
+padding: .2em;
+  float:left;
+}
+
+
+
+#infobox{
+    border: 0px none;
+    position :absolute;
+    background : url('../images/infobox.png');
+
+}
+
+#external-links{
+  padding-top:10px;
+  //bottom:10px;
+}
+
+#cm_sidebarDIV{
+overflow:hidden;
+height:100%;
+margin-top:240px;
+font-size:14px;
+color:#000;
+
+
+}
+
+
+a{
+color:#cc4343;
+text-decoration:none;
+
+}
+
+
